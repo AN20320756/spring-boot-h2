@@ -25,6 +25,9 @@ public class UserController {
 
 		System.out.println("User created");
 		
+		System.out.println("test Using Git");
+	
+		
 		User userData =userService.createUser(user);
 		return userData;
 
